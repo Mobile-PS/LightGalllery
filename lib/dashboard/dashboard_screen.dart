@@ -458,7 +458,8 @@ class _Dashboardscreen extends State<Dashboardscreen> {
                               Container(
                                   width: width,
                                   color: Colors.white,
-                                  child:Column(children: [
+                                  child:Expanded(child:
+                                  Column(children: [
 
                                     SizedBox(height: 20,),
 
@@ -507,7 +508,8 @@ class _Dashboardscreen extends State<Dashboardscreen> {
                                           width: width/4,
                                           height: height/12,
                                           color: boxback,
-                                          child: Column(
+                                          child:
+                                          Column(
                                               crossAxisAlignment: CrossAxisAlignment.center,
                                               mainAxisAlignment: MainAxisAlignment.center,
                                               children: [
@@ -560,9 +562,9 @@ class _Dashboardscreen extends State<Dashboardscreen> {
                                     SizedBox(
                                       height: 20,
                                     ),
-                                  ],)),
+                                  ],))),
                               SizedBox(
-                                height: 30,
+                                height: 10,
                               ),
                               Visibility(
                                   visible: false,
